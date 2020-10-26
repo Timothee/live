@@ -1,5 +1,7 @@
 module.exports = () => {
   const opts = {
+    // Target must be serverless
+    target: 'serverless',
     basePath: process.env.BASE_PATH,
     env: {
       // Backwards compatibility for people migrating from RAZZLE
